@@ -1,0 +1,136 @@
+.cart-items {
+    background-color: white;
+    position: relative;
+    border: 1px solid grey;
+    border-radius: 10px;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px 100px 30px;
+}
+
+.cart-header{
+    color: #ff0000;
+}
+body{
+    height: 100%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+}
+
+.item-display {
+    border-bottom: 1px solid grey;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 40px;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+    opacity: 0;
+}
+
+.item-row {
+    border-bottom: 1px solid grey;
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    padding: 40px;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+}
+
+.item-display img{
+    width: 300px;
+}
+
+.buttons button {
+    margin: 0;
+    color: white;
+    background-color:rgb(250, 79, 0);
+    border: 2px solid grey;
+    border-radius: 3px;
+    width: 25px;
+    padding: 3px;
+}
+.buttons button:hover {
+    width: 27px;
+    height: 27px;
+    transition: 0.1s;
+}
+
+.clear-cart-button {
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(255, 149, 0);
+    height: 40px;
+    width: 120px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.clear-cart-button:hover {
+    height: 50px;
+    width: 125px;
+    transition: 0.1s;
+    box-shadow: 3px 3px rgb(255, 149, 0, 0.6);
+}
+
+.checkout {
+    border: none;
+    background: none;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 30px;
+}
+
+.checkout-button{
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(255, 149, 0);
+    height: 40px;
+    width: 120px;
+    cursor: pointer;
+}
+
+.checkout-button:hover{
+    height: 50px;
+    width: 125px;
+    transition: 0.1s;
+    box-shadow: 3px 3px rgb(255, 149, 0, 0.6);
+}
+
+.invoice-container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.invoice {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 85%;
+}
+.invoice h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.invoice-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+.invoice-table th, .invoice-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+.invoice-table th {
+    background-color: #f2f2f2;
+}

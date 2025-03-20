@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 30px;
+    background: linear-gradient(to right, #f2f2f2 0%, #ff2a2ab0 100%);
+    font-size: 15px;
+    margin-top: 140px ;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(to right,  #ff2a2ab0 0%, #f2f2f2 100%);
+    position: fixed;   
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    justify-content: space-between;
+    border: 1px solid rgb(200, 200, 200);
+    padding: 10px 20px;
+    z-index: 1;
+}
+
+header .totalquantity{
+    position: absolute;
+    top: 10px;
+    right: 105px;
+    font-size: x-large;
+    background-color: red;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-section{
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.header-logo{
+    margin-top: 15px;
+    height: 120px;
+    border-radius: 40px;
+}
+
+
+.right-section{
+    display: flex;
+    flex: 2;
+    align-items: center;
+    justify-content: right;
+}
+
+.bag-icon
+{
+    height: 50px;
+    cursor: pointer;
+    margin: 0px 20px 0px 20px;
+}
+
+.bag-icon-container,
+.about-us-container{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    cursor: pointer;
+}
+section {
+    margin: 2em;
+    padding: 1em;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1, h2 {
+    color: #333;
+}
+p {
+    color: #666;
+}

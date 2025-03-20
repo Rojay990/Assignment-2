@@ -1,0 +1,158 @@
+body{
+    background: linear-gradient(to right, #f2f2f2 0%, #ff2a2ab0 100%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 140px ;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(to right,  #ff2a2ab0 0%, #f2f2f2 100%);
+    position: fixed;   
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    justify-content: space-between;
+    border: 1px solid rgb(200, 200, 200);
+    padding: 10px 20px;
+    z-index: 1;
+}
+
+header .totalquantity{
+    position: absolute;
+    top: 10px;
+    right: 105px;
+    font-size: x-large;
+    background-color: red;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-section{
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.header-logo{
+    margin-top: 15px;
+    height: 120px;
+    border-radius: 40px;
+}
+
+
+.right-section{
+    display: flex;
+    flex: 2;
+    align-items: center;
+    justify-content: right;
+}
+
+.bag-icon
+{
+    height: 50px;
+    cursor: pointer;
+    margin: 0px 20px 0px 20px;
+}
+
+.bag-icon-container,
+.about-us-container{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    cursor: pointer;
+}
+
+
+p{
+    margin: 13px;
+}
+
+.product-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 40px;
+    row-gap: 50px;
+    padding: 40px;
+}
+
+
+.clothes-preview{
+    width: 100%;
+    vertical-align: top;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+    padding-bottom: 10px;
+}
+
+
+.clothes-display{
+    width: 100%;
+    height: 300px;
+    display: block;
+    border-radius: 10px;
+}
+
+.add-to-cart{
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+    background: linear-gradient(to top right, #0099ff 0%, #ffffff 100%);
+}
+
+.add-to-cart:hover{
+    height: 40px;
+    width: 100px;
+}
+
+.clothes-info{
+    text-align: center;
+}
+
+.clothes-name{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.clothes-price{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+
+
+
+
+@media (max-width: 750px){
+    .product-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 751px) and (max-width: 999px){
+    .product-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1500px){
+    .product-grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1501px){
+    .product-grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+

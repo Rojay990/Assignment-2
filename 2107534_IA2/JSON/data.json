@@ -1,0 +1,109 @@
+[
+    {
+        "ID": "1",
+        "name": "Everyday Seamless Tight Fit",
+        "price": 5000,
+        "color": "Black",
+        "src": "../Assests/top1.jpg",
+        "quantity": 15
+    },  
+
+    {
+        "ID": "2",
+        "name": "SwiftDry Performance Tee",
+        "price": 4000,
+        "color": "Purple",
+        "src": "../Assests/top2.jpg",
+        "quantity": 11
+    },
+
+    {
+        "ID": "3",
+        "name": "FlexPro Training Joggers",
+        "price": 6200,
+        "color": "Gray",
+        "src": "../Assests/bottom1.webp",
+        "quantity": 17
+    },
+
+    {
+        "ID": "4",
+        "name": "ThermaCore Performance Hoodie",
+        "price": 8000,
+        "color": "Gray",
+        "src": "../Assests/top1.webp",
+        "quantity": 13
+    },
+
+    {
+        "ID": "5",
+        "name": "ThermaCore Performance Hoodie",
+        "price": 8000,
+        "color": "Fuscous Gray",
+        "src": "../Assests/top2.webp",
+        "quantity": 5
+    },
+
+    {
+        "ID": "6",
+        "name": "FlexFit Racerback Tank",
+        "price": 4500,
+        "color": "Black",
+        "src": "../Assests/top3.jpg",
+        "quantity": 8
+    },
+
+    {
+        "ID": "7",
+        "name": "GymShark Men's Casual Tee ",
+        "price": 4800,
+        "color": "Black",
+        "src": "../Assests/top4.webp",
+        "quantity": 3
+    },
+
+    {
+        "ID": "8",
+        "name": "FlexPro Training Joggers",
+        "price": 6200,
+        "color": "Dark Blue",
+        "src": "../Assests/bottom3.webp",
+        "quantity": 5
+    },
+
+    {
+        "ID": "9",
+        "name": "Women's Long Sleeve Top",
+        "price": 5200,
+        "color": "Dark Blue",
+        "src": "../Assests/top4.jpg",
+        "quantity": 32
+    },
+
+    {
+        "ID": "10",
+        "name": "Men's Running Shorts",
+        "price": 3700,
+        "color": "Black",
+        "src": "../Assests/bottom2.webp",
+        "quantity": 21
+    },
+
+    {
+        "ID": "11",
+        "name": "Women's Long Sleeve Top",
+        "price": 5200,
+        "color": "Dark Green",
+        "src" : "../Assests/top5.jpg",
+        "quantity": 2
+    },
+    {
+        "ID": "12",
+        "name": "Men's Casual Tee",
+        "price": 3000,
+        "color": "Black",
+        "src" : "../Assests/top5.webp",
+        "quantity": 19
+    }
+
+]

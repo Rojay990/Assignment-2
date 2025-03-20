@@ -1,0 +1,85 @@
+body{
+    background-image: url("../Assests/login-page-backgrounf.avif");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+}
+
+h2{
+    background: -webkit-linear-gradient(#ff3737, #7d77a3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.login-container, .signup-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    width: 600px;
+    height: 800px;
+    background-color: white;
+    padding: 20px 10px 20px 10px;
+}
+
+
+label{
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+    margin-left:  80px;
+}
+
+.signup-container label{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+    margin-left:  80px;
+}
+
+input{
+    font-size: 25px;
+    border: none;
+    height: 30px;
+}
+
+.login-container input, .signup-container input{
+    width: 75%;
+    margin-left:  80px;
+    border-bottom:1px solid grey;
+}
+
+input:focus{
+    outline: none;
+}
+
+button{
+    background: linear-gradient(to right, #ff33cc 0%, #0033cc 100%);
+    color: white;
+    border: none;
+    height: 30px;
+    width: 300px;
+    border-radius: 90px;
+    cursor: pointer;
+}
+
+button:hover{
+    box-shadow: 5px 10px rgba(255, 0, 183, 0.293);
+}
+
+div textarea{
+    font-size: 20px;
+    pointer-events: none;
+    height: 100px;
+    width: 30%;
+    border: none;
+    resize: none;
+}
+
+h1{
+    background: -webkit-linear-gradient(#ff37f5, #4127ed);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

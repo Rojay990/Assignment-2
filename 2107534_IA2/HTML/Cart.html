@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="../CSS/Cart.css">
+    <link rel="stylesheet" href="../CSS/Homepage.css">
+</head>
+<body>
+
+    <a name="head"><header class="header"></a>
+        <div class="left-section">
+            <a href="Homepage.html">
+                <img class="header-logo" src="../Assests/website_logo.png" alt="IMAGE NOT FOUND">
+            </a>
+        </div>
+
+        <div class="right-section">
+
+            <div class="bag-icon-container">
+                <a href="Cart.html"><img class="bag-icon" src="../Assests/bag-icon.png" alt=""></a>
+                <div class="totalquantity"> <span id="totalquantity">0</span></div>
+                <div>Cart/Invoice</div>
+            </div>
+
+            <div class="about-us-container">
+                <a href="../HTML/About us.html">About Us</a> 
+            </div>
+        </div>
+    </header>
+
+    <div class="cart-items">
+        <!-- Content goes here -->
+        <center><h1 class="cart-header">CART ITEMS</h1></center>
+
+        <div class="item-display">
+
+        </div>
+
+        <div class="checkout">
+            <button id="checkout-button" class="checkout-button">CHECKOUT</button>
+            <button id="clear-cart-button" class="clear-cart-button">CLEAR CART</button>
+        </div>
+
+    </div>
+
+    
+    <div class="invoice-container">
+        <div class="invoice">
+            <h2>Invoice</h2>
+            <p><strong>Date:</strong> <span id="invoice-date">01/01/2023</span></p>
+            <p><strong>Order Number:</strong> <span id="order-number">123456</span></p>
+            <table class="invoice-table">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody id="invoice-items">
+                    <!-- Items will be dynamically inserted here -->
+                </tbody>
+            </table>
+            <p><strong>Subtotal:</strong> <span id="subtotal">$0.00</span></p>
+            <p><strong>Tax:</strong> <span id="tax">$0.00</span></p>
+            <p><strong>Total:</strong> <span id="total">$0.00</span></p>
+        </div>
+    </div>
+
+
+    <script src="../JS/cart.js"></script>
+</body>
+</html>
